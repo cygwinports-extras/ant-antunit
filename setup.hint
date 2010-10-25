@@ -1,0 +1,6 @@
+category: Devel Java
+requires: ant java-junit
+sdesc: "Ant task unit test framework"
+ldesc: "AntUnit borrows ideas from JUnit 3.x and the <junit> task. It 
+provides a task that runs build files as unit tests as well as a number 
+of assertion tasks to support the idea."

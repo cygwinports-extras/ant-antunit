@@ -1,0 +1,11 @@
+JAVA_CLASSPATH="junit.jar"
+inherit ant
+
+DESCRIPTION="Ant task unit test framework"
+HOMEPAGE="http://ant.apache.org/antlibs/antunit/"
+SRC_URI="mirror://apache/ant/antlibs/${PN#ant-}/source/apache-${P}-src.tar.bz2"
+SRC_DIR="apache-${P}"
+
+ANT_BUILD_TARGETS="antlib"
+ANT_TEST_ARGS="-Dant-testutil.jar=${ANT_HOME}/lib/ant-testutil.jar"
+ANT_INSTALL_TASKS="build/lib/*.jar"
