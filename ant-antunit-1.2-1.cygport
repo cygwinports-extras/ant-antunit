@@ -1,4 +1,4 @@
-JAVA_CLASSPATH="junit.jar"
+JAVA_CLASSPATH="junit4.jar"
 inherit ant
 
 DESCRIPTION="Ant task unit test framework"
